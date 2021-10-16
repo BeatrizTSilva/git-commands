@@ -55,13 +55,15 @@ sudo nano ~./gitconfig
 
 ## Gitignore:
 .gitignore:
-```git rm --cached <file or directory to be removed> //remove file to ignore
-
+```
+git rm --cached <file or directory to be removed> //remove file to ignore
+```
 1. make .gitignore file.
 2. add node_modules/ line to gitignore file
 3. run this command
+	```
 	git rm -r --cached .
 	git add .
 	git commit -m "remove gitignore files"
 	git push
-```
+	```
