@@ -45,7 +45,7 @@ git config --global init.defaultBranch main
 
 ## In .gitconfig file do:
 ```
-sudo nano ~./gitconfig
+sudo nano ~/.gitconfig
 [init]
         defaultBranch = main
  
